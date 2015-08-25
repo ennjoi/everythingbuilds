@@ -42,6 +42,7 @@ html, body {
 #everythingbuilds a:hover {
 	padding: 5px 5px 5px 5px;
 	font-weight: bold;
+	box-shadow: 5px 5px 5px black;
 }
 
 #footertable {
@@ -51,11 +52,13 @@ html, body {
 
 .footerlinks {
 	height: 50%;
-	opacity: 0.7;
-	border: 1px solid none;
+	opacity: 0.1;
+	border: 3px solid black;
 	border-radius: 50%;
 }
 
 .footerlinks:hover {
 	opacity: 1;
+	height: 55%;
+	box-shadow: 10px 10px 10px black;
 }
