@@ -3,6 +3,7 @@ html, body {
 	padding-right: 0;
 	height: 100%;
 	font-family: hanzipen sc;
+	background-image: url(images/flower.jpg);
 }
 
 #container {
@@ -31,7 +32,7 @@ html, body {
 #everythingbuilds {
 	text-align: center;
 	font-size: 2em;
-	margin-top: 15%;
+	margin-top: 170px;
 }
 
 #everythingbuilds a {
