@@ -1,8 +1,10 @@
+/***********************/
+/*SKELETON (NOFIDDLINGHERE)*/
 html, body {
 	margin: 0;
 	padding-right: 0;
 	height: 100%;
-	font-family: hanzipen sc;
+	font-family: hanzipen sc, sans-serif;
 	background-image: url(images/flower.jpg);
 }
 
@@ -28,14 +30,13 @@ html, body {
 }
 
 /***********************/
-
+/*HEADER*/
 #headertable {
-	font-family: microsoft tai le;
+	font-family: microsoft tai le, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 	color: white;
 	border-right: 1px solid black;
-	opacity: 0.7;
 }
 
 #headertable td {
@@ -44,11 +45,19 @@ html, body {
 	padding-right: 20px;
 }
 
-#headertable a {
+.headerlinks {
 	color: white;
 	text-decoration: none;
+	opacity: 0.7;
 }
 
+.headerlinks:hover {
+	opacity: 1.0;
+}
+
+/***********************/
+/*CONTENT*/
+/*HOME*/
 #everythingbuilds {
 	text-align: center;
 	font-size: 2em;
@@ -67,6 +76,16 @@ html, body {
 	box-shadow: 5px 5px 5px black;
 }
 
+/*ABOUT*/
+#about {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 20%;
+	display: block;
+}
+
+/***********************/
+/*FOOTER*/
 #footertable {
 	margin-left: auto;
 	margin-right: auto;
