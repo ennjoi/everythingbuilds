@@ -29,10 +29,16 @@ html, body {
 
 /***********************/
 
+#headertable {
+	float: right;
+	color: white;
+}
+
 #everythingbuilds {
 	text-align: center;
 	font-size: 2em;
-	margin-top: 170px;
+	margin-top: 20%;
+	display: block;
 }
 
 #everythingbuilds a {
