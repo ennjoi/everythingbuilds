@@ -98,6 +98,26 @@ html, body {
 	margin-right: auto;	
 }
 
+#projectstable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#projectstable td {
+	padding: 10px;
+}
+
+.projectslinks {
+	height: 300px;
+	width: 300px;
+	opacity: 0.5;
+	border: 5px solid black;
+}
+
+.projectslinks:hover {
+	opacity: 1.0;
+}
+
 /*CONTACT*/
 #contact {
 	text-align: center;
