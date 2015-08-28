@@ -116,6 +116,7 @@ html, body {
 
 .projectslinks:hover {
 	opacity: 1.0;
+	box-shadow: 10px 10px 10px black;
 }
 
 /*CONTACT*/
