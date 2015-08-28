@@ -88,6 +88,11 @@ html, body {
 	margin-right: auto;
 }
 
+.video {
+	border: 5px double black;
+	box-shadow: 5px 5px 5px black;
+}
+
 /*PROJECTS*/
 #projects {
 	text-align: center;
@@ -117,6 +122,8 @@ html, body {
 .projectslinks:hover {
 	opacity: 1.0;
 	box-shadow: 10px 10px 10px black;
+	height: 302px;
+	width: 302px;
 }
 
 /*CONTACT*/
