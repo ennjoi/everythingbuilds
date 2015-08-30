@@ -126,11 +126,19 @@ html, body {
 	width: 302px;
 }
 
-#projectonediv a img {
+/*PROJECTS-GOOGLEHOMEPAGE*/
+#projectonediv {
 	margin:auto;
-	border: 5px solid black;
-	height: 200px;
-	width: 200px;
+	font-size: 1em;
+}
+
+#projectonediv a {
+	text-decoration: none;
+	color: black;
+}
+
+#projectonediv:hover {
+	box-shadow: 10px 10px 10px black;
 }
 
 /*CONTACT*/
@@ -151,14 +159,14 @@ html, body {
 }
 
 .footerlinks {
-	height: 50%;
+	height: 30%;
 	opacity: 0.1;
-	border: 3px solid black;
+	border: 1px solid black;
 	border-radius: 50%;
 }
 
 .footerlinks:hover {
 	opacity: 1;
-	height: 55%;
+	height: 35%;
 	box-shadow: 10px 10px 10px black;
 }
