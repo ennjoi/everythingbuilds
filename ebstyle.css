@@ -113,32 +113,35 @@ html, body {
 }
 
 .projectslinks {
-	height: 300px;
-	width: 300px;
+	height: 150px;
+	width: 150px;
 	opacity: 0.5;
-	border: 5px solid black;
+	border: 3px double black;
 }
 
 .projectslinks:hover {
 	opacity: 1.0;
 	box-shadow: 10px 10px 10px black;
-	height: 302px;
-	width: 302px;
+	height: 152px;
+	width: 152px;
 }
 
 /*PROJECTS-GOOGLEHOMEPAGE*/
-#projectonediv {
+.projectonediv {
 	margin:auto;
 	font-size: 1em;
+	width: 50%;
 }
 
-#projectonediv a {
+.projectonediv a {
 	text-decoration: none;
 	color: black;
 }
 
-#projectonediv:hover {
+.projectonediv:hover {
 	box-shadow: 10px 10px 10px black;
+	font-size: 1.1em;
+	font-weight: bold;
 }
 
 /*CONTACT*/
