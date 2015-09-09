@@ -70,11 +70,14 @@ html, body {
 #everythingbuilds a {
 	color: black;
 	text-decoration: none;
+	transition: padding 0.5s, box-shadow 0.5s;
 }
 
 #everythingbuilds a:hover {
 	padding: 5px 5px 5px 5px;
 	font-weight: bold;
+	color: white;
+	background-color: black;
 	box-shadow: 5px 5px 5px black;
 }
 
@@ -166,6 +169,7 @@ html, body {
 	opacity: 0.1;
 	border: 1px solid black;
 	border-radius: 50%;
+	transition: opacity 0.5s, height 0.5s, box-shadow 0.5s;
 }
 
 .footerlinks:hover {
